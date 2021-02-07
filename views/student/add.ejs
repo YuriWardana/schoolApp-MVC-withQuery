@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <%- include("../partial/nav", {pageName: `Student's Datas`}) %>
+    <p><%= alert %></p>
+
+   <form action="/students/add" method="post">
+   <div>
+       <label for="">First Name :</label><br>
+       <input type="text" name="first_name"><br>
+   </div>
+   <div>
+    <label for="">Last Name :</label><br>
+    <input type="text" name="last_name"><br>
+</div> 
+<div>
+    <label for="">Email :</label><br>
+    <input type="text" name="email"><br>
+</div>
+<div>
+    <label for="">Gender :</label><br>
+    <select name="gender" id=""><br>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+</div>
+<div>
+    <label for="">Birthdate :</label><br>
+    <input type="date" name="birthdate"><br>
+</div>
+<input type="submit" value="Submit"><br>    
+</form>
+
+
+</body>
+</html>

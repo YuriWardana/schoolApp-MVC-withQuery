@@ -1,0 +1,50 @@
+[
+  {
+    "id": 2,
+    "first_name": "mitun",
+    "last_name": "tunmi",
+    "email": "tunmitunmi@gmail.com",
+    "gender": "male",
+    "birthdate": "27-05-1990"
+  },
+  {
+    "id": 3,
+    "first_name": "admad",
+    "last_name": "akbar",
+    "email": "tunmitunmi@gmail.com",
+    "gender": "male",
+    "birthdate": "27-05-1990"
+  },
+  {
+    "id": 4,
+    "first_name": "senin",
+    "last_name": "selasa",
+    "email": "rabu@gmail.com",
+    "gender": "male",
+    "birthdate": "27-05-1990"
+  },
+  {
+    "id": 5,
+    "first_name": "4",
+    "last_name": "5",
+    "email": "6",
+    "gender": "male",
+    "birthdate": "27-05-1990"
+  },
+  {
+    "id": 6,
+    "first_name": "samuel",
+    "last_name": "abc",
+    "email": "tunmitunmi@gmail.com",
+    "gender": "female",
+    "birthdate": "27-05-1990"
+  },
+  {
+    "id": 7,
+    "first_name": "samuel",
+    "last_name": "abc",
+    "email": "tunmitunmi@gmail.com",
+    "gender": "male",
+    "birthdate": "27-05-1990"
+  }
+]

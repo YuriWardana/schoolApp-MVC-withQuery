@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher List</title>
+</head>
+<body>
+    <%- include("../partial/nav", {pageName: `Student's Datas`}) %>
+    <table border="1">
+        <tr>
+            <th>Id</th>
+            <th>first_name</th>
+            <th>last_name</th>
+            <th>email</th>
+        </tr>
+        <% data.forEach(el =>{ %>
+            <tr>
+                <td><%= el.id %></td>
+                <td><%= el.first_name %></td>
+                <td><%= el.last_name %></td>
+                <td><%= el.email %></td>
+            </tr>
+        <%  }) %>
+    </table>
+    
+</body>
+</html>

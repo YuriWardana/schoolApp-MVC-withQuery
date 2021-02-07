@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edit</title>
+</head>
+<body>
+    <%- include("../partial/nav", {pageName: `Student's Datas`}) %>
+   <form action="/students/<%= data.id %>/edit" method="post">
+   <div>
+       <label for="">First Name :</label><br>
+       <input type="text" name="first_name" value = "<%= data.first_name %>" > <br>
+   </div>
+   <div>
+    <label for="">Last Name :</label><br>
+    <input type="text" name="last_name" value = "<%= data.last_name %>"><br>
+</div>
+<div>
+    <label for="">Email :</label><br>
+    <input type="text" name="email" value = "<%= data.email %>"><br>
+</div>
+<div>
+    <label for="">Gender :</label><br>
+    <select name="gender" id="" >
+        <option <%= data.gender === 'male' ? 'selected' : '' %> value="male">Male</option>
+        <option <%= data.gender === 'female' ? 'selected' : ''  %> value="female">Female</option>
+    </select>
+</div>
+<div>
+    <label for="">Birthdate :</label ><br>
+    <input type="date" name="birthdate" value = "<%= data.birthdate %>">
+</div>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
